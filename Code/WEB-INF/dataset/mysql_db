@@ -1,0 +1,31 @@
+create database products;
+use products
+create table product(pname varchar(100),purchase_date date);
+insert into product values('CD,BOOKS,VIDEO','2013-06-01');
+insert into product values('CD,GAMES','2013-06-01');
+insert into product values('CD,DVD','2013-06-01');
+insert into product values('CD,BOOKS,GAMES','2013-06-01');
+insert into product values('BOOKS,DVD','2013-06-01');
+insert into product values('CD,DVD','2013-06-01');
+insert into product values('BOOKS,DVD','2013-06-01');
+insert into product values('CD,BOOKS,DVD,VIDEO','2013-06-01');
+insert into product values('CD,BOOKS,DVD','2013-06-01');
+commit;
+
+
+create table product1(pname varchar(100),purchase_date date);
+insert into product1 values('CD,BOOKS,VIDEO','2013-06-01');
+insert into product1 values('CD,GAMES','2013-06-01');
+insert into product1 values('CD,DVD','2013-06-01');
+insert into product1 values('CD,BOOKS,GAMES','2013-06-01');
+insert into product1 values('BOOKS,DVD,GAMES','2013-06-01');
+insert into product1 values('CD,DVD,GAMES','2013-06-01');
+insert into product1 values('BOOKS,DVD,GAMES','2013-06-01');
+insert into product1 values('CD,BOOKS,DVD,VIDEO','2013-06-01');
+insert into product1 values('CD,BOOKS,DVD','2013-06-01');
+insert into product1 values('CD,VIDEO,DVD','2013-06-01');
+insert into product1 values('CD,VIDEO,DVD,GAMES','2013-06-01');
+insert into product1 values('VIDEO,DVD,GAMES','2013-06-01');
+insert into product1 values('VIDEO,DVD,GAMES','2013-06-01');
+insert into product1 values('VIDEO','2013-06-01');
+commit;
